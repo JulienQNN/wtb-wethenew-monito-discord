@@ -1,6 +1,8 @@
-# Scrap loop and display on discord the Want To buy list of WeTheNew
+# Scrap, loop and display
 
-Rotate Proxy used, keywordsystem, two differents discords embeds possible.
+
+- Discord python script for monitoring the Want To buy list of WeTheNew.
+- Rotate Proxy used, keywordsystem, two differents discords embeds possible.
 
 .Env info's :
 

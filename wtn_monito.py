@@ -114,8 +114,8 @@ def discord_webhook(name, url, thumbnail, sizes):
         "avatar_url": CONFIG['AVATAR_URL'],
         "embeds": [{
             "author": {
-            "name": "Izi Cookz", 
-            "url": "https://dashboard.izicookz.com/",
+            "name": "your own name", 
+            "url": "your own url",
             "icon_url": CONFIG['AVATAR_URL'],
             },
             "title": namesize,
@@ -123,7 +123,7 @@ def discord_webhook(name, url, thumbnail, sizes):
             "color": int(CONFIG['COLOUR']),
             "fields": fieldsSizes,
             "url": "https://wtb.wethenew.com/",
-            "footer": {"text": "Made by JLM for Izi Cookz","icon_url": "https://media1.tenor.com/images/bcebfc84143c63f127c7fd80826f01bf/tenor.gif?itemid=22297787"},
+            "footer": {"text": "your footer text","icon_url": "your icon url"},
             "timestamp": str(datetime.utcnow()),
         }]
     }
